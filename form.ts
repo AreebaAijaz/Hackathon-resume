@@ -92,6 +92,6 @@ form?.addEventListener('submit' , (e) => {
     }
 
     // window.location.href = '/hackathon-resume/milestone-3/resume.html';
-    window.location.href = 'my-resume/user-resume.html'
-    window.location.href = '/my-resume/user-resume.html'
+    window.location.href = 'user-resume.html'
+    // window.location.href = '/my-resume/user-resume.html'
 })
