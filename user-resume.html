@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="user-resume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <section>
+        <main id="main">
+            <div class="left-side">
+                <div class="head">
+                    <img id="resPic" src="resume-girl.jpg" alt="" class="img" />
+                    <div class="title"></div>
+                </div>
+                <div class="left-cntnt">
+                    <div cass="contact">
+                        <p class="h1">Contact Info</p>
+                        <div class="bar"></div>
+                        <p><i class="fas fa-phone"></i>&nbsp;&nbsp;<span id="resPhone"></span></p>
+                        <p><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;<span id="resEmail"></span></p>
+                        <p><i class="fa-solid fa-location-dot">&nbsp;&nbsp;</i><span id="resAddress"></span></p>
+                    </div>
+                    <div class="education">
+                        <p class="h1">Education</p>
+                        <div class="bar"></div>
+                        <h4><span id="resInstitute"></span> | <span id="resYear"></span></h4>
+                        <p id="resResult" class="edu-p"></p>
+                        <h4><span id="resInstitute2"></span> | <span id="resYear2"></span></h4>
+                        <p id="resResult2" class="edu-p"></p>
+                    </div>
+                    <div class="skills">
+                        <p class="h1">Skills</p>
+                        <div class="bar"></div>
+                        <ul>
+                            <li id="resSkill1"></li>
+                            <li id="resSkill2"></li>
+                            <li id="resSkill3"></li>
+                            <li id="resSkill4"></li>
+                        </ul>
+                    </div>
+
+                    <div class="languages">
+                        <p class="h1">Languages</p>
+                        <div class="bar"></div>
+                        <ul>
+                            <li id="resLng1"></li>
+                            <li id="resLng2"></li>
+                        </ul>
+
+                     </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="name">
+                 <h1 id="resName"></h1>
+                </div>
+                <div class="title2">
+                    <p id="resumeTitle" class="job-title">&nbsp;&nbsp;&nbsp;</p>
+
+                </div>
+                <div class="right-cntnt">
+                    <div class="experience">
+                        <p class="h1">Work Experience</p>
+                        <div class="bar2"></div>
+                        <div class="exp1">
+                            <h3 class="organization"><span id="resCompany"></span> | <span id="resDesignation"></span></h4>
+                            <h5 class="time-period"><span id="resStYear"></span> - <span id="resEndYear"></span></h5>
+                            <div class="bar3"></div>
+                            <p id="resDes" class="summary"></p>
+                        </div>
+                        <div class="exp2">
+                            <h3 class="organization"><span id="resCompany2"></span> | <span id="resDesignation2"></span></h4>
+                            <h5 class="time-period"><span id="resStYear2"></span> - <span id="resEndYear2"></span></h5>
+                            <div class="bar3"></div>
+                            <p id="resDes2" class="summary"></p>
+                        </div>
+
+                        <div class="certifications">
+                            <p class="h1">Certifications</p>
+                            <div class="bar2"></div>
+                            <ul>
+                                <li id="resCertificate1"></li>
+                                <li id="resCertificate2"></li>
+                                <li id="resCertificate3"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <div id="print">
+        <button id="prnt-btn">Print</button>
+        <button id="edit-btn">Edit</button>
+
+    </div>
+    </section>
+    <script src="user-resume.js"></script>
+</body>
+
+</html>
