@@ -91,7 +91,5 @@ form?.addEventListener('submit' , (e) => {
         reader.readAsDataURL(pic.files[0])
     }
 
-    // window.location.href = '/hackathon-resume/milestone-3/resume.html';
     window.location.href = 'user-resume.html'
-    // window.location.href = '/my-resume/user-resume.html'
 })

@@ -116,6 +116,7 @@ ul{
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    margin-top: 12px;
 }
 
     /* Styles for mobile devices */
@@ -125,7 +126,7 @@ ul{
         font-size: 11px;
     }
     #main{
-        border: 1px solid black;
+        /* border: 1px solid black; */
         width: 100%;
         display: flex;
     }

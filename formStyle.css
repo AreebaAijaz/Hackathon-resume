@@ -61,3 +61,13 @@ form{
     cursor: pointer;
     width: 100%;
 }
+
+
+
+@media(max-width:520px){
+    form{
+        padding: 2%;
+        width: 90%;
+    }
+    
+}
